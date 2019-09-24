@@ -3,10 +3,10 @@
 
 Technologies: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Font Awesome, Google Analytics, Google Tag Manager.
 
-Github-link:
+GitHub-link: https://djanota.github.io/Dawid_Janota-Website_Under_Construction/
 
 (PL) Dawid Janota - Website Under Construction to projekt mający na celu poinformowanie użytkowników, że właściwa strona internetowa jest w budowie i wkrótce się pojawi.
 
 Technologie: HTML5, CSS3, JavaScript, jQuery, Bootstrap, Font Awesome, Google Analytics, Google Tag Manager.
 
-Github-link:
+GitHub-link: https://djanota.github.io/Dawid_Janota-Website_Under_Construction/
