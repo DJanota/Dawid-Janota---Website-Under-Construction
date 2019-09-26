@@ -1,0 +1,401 @@
+/*Website Under Construction*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.webundcon {
+    padding: 35px;
+    height: 672px;
+    min-height: 200px;
+    background-color: #000;
+}
+
+.webundcon h1 {
+    color: #fff;
+}
+
+.webundcon .ct-box {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.webundcon .ct-box form {
+    margin-top: 40px;
+}
+
+/*Fonts - headline*/
+h1 {
+    margin-top: 10px;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 20px;
+    color: #c6cacc;
+    text-align: center;
+}
+
+/*Fonts - headline*/
+/*Countdown Timer*/
+#clockdiv {
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: 100%;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+}
+
+#clockdiv > div {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    height: 150px;
+    width: 150px;
+    padding: 35px;
+    border-radius: 50%;
+    background: #000;
+    color: #b88b58;
+    display: inline-block;
+}
+
+#clockdiv > .one {
+    height: 150px;
+    width: 150px;
+    padding: 0;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#clockdiv .one > .two {
+    height: 150px;
+    width: 150px;
+    padding: 1px;
+    border-radius: 50%;
+    background: #fff;
+    color: #b88b58;
+    display: inline-block;
+}
+
+.smalltext {
+    padding-top: 1px;
+    font-size: 12px;
+}
+
+.padding-alignment {
+    padding: 0;
+}
+
+/*Countdown Timer*/
+/*Contact*/
+.contact {
+    margin-top: 150px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact .social-button {
+    margin-top: 1vh;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.contact .social-button i {
+    color: #fff;
+}
+
+.contact h4 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #b88b58;
+}
+
+.contact p {
+    font-size: 12px;
+    color: #c6cacc;
+}
+
+/*Social Buttons*/
+.social-button {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    background: none;
+    transition: all 0.5s;
+}
+
+.social-button i {
+    font-size: 20px;
+    color: #c6cacc;
+}
+
+.social-button:hover {
+    background: #B88B58;
+}
+
+.social-button:hover i {
+    color: #fff;
+}
+
+/*Social Buttons*/
+/*Contact*/
+/*Website Under Construction*/
+/*Footer*/
+footer {
+    padding: 20px 0 15px 0;
+    background-color: #000000;
+}
+
+footer p {
+    font-size: 13px;
+    color: #808080;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p a:hover {
+    color: #b88b58;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Footer*/
+/*Cookies*/
+#cookies-message {
+    padding: 28px 10px;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    display: none;
+    text-align: center;
+    text-align: center;
+    position: fixed;
+    color: #fff;
+}
+
+#accept-cookies-checkbox {
+    background-color: #b88b58;
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: solid 1px #b88b58;
+    transition: all 0.5s;
+    margin-left: 10px;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+#accept-cookies-checkbox:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+/*Cookies*/
+/*Modal*/
+.modal-cont .modal-header,
+.modal-sub .modal-header {
+    background: #b88b58;
+}
+
+.modal-cont h1,
+.modal-sub h1 {
+    color: #b88b58;
+}
+
+/*Modal*/
+
+/*Media*/
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*Cookies*/
+    #cookies-message {
+        font-size: 12px;
+        padding: 30px 10px;
+    }
+
+    /*Cookies*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /*Website Under Construction*/
+    .webundcon {
+        padding: 35px 0;
+        height: 100%;
+    }
+
+    .webundcon .ct-box {
+        width: 400px;
+    }
+
+    .webundcon .ct-box form {
+        margin-top: 10px;
+    }
+
+    /*Fonts - headline*/
+    h1 {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    h5 {
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    /*Fonts - headline*/
+    /*Contact*/
+    .contact {
+        margin-top: 30px;
+    }
+
+    .contact h4 {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    /*Contact*/
+    /*Cookies*/
+    #cookies-message {
+        font-size: 12px;
+        padding: 21px 10px;
+    }
+
+    /*Cookies*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*Website Under Construction*/
+    .webundcon {
+        padding: 35px 0;
+        height: 100%;
+    }
+
+    .webundcon .ct-box {
+        width: 350px;
+    }
+
+    .webundcon .ct-box form {
+        margin-top: 10px;
+    }
+
+    /*Fonts - headline*/
+    h1 {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    h5 {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    /*Fonts - headline*/
+    /*Contact*/
+    .contact {
+        margin-top: 30px;
+    }
+
+    .contact h4 {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    /*Contact*/
+    /*Cookies*/
+    #cookies-message {
+        font-size: 12px;
+        padding: 21px 10px;
+    }
+
+    /*Cookies*/
+
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    /*Website Under Construction*/
+    .webundcon {
+        padding: 35px 0;
+        height: 100%;
+    }
+
+    .webundcon .ct-box {
+        width: 350px;
+    }
+
+    .webundcon .ct-box form {
+        margin-top: 10px;
+    }
+
+    /*Fonts - headline*/
+    h1 {
+        font-size: 25px;
+        margin: 0px;
+    }
+
+    h5 {
+        margin-top: 0px;
+        font-size: 12px;
+    }
+
+    /*Fonts - headline*/
+    /*Contact*/
+    .contact {
+        margin-top: 30px;
+    }
+
+    .contact h4 {
+        margin-top: 15px;
+        font-size: 13px;
+    }
+
+    /*Contact*/
+    /*Website Under Construction*/
+    /*Cookies*/
+    #cookies-message {
+        font-size: 12px;
+        padding: 13px 10px;
+    }
+
+    /*Cookies*/
+}
+
+/*Media*/
