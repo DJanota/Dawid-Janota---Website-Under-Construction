@@ -4,9 +4,6 @@ body {
     background-color: #000;
     height: 100%;
     width: 100%;
-}
-
-* {
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
@@ -14,10 +11,10 @@ body {
     color: #fff;
 }
 
+
+
 .webundcon {
     padding: 35px;
-    height: 672px;
-    min-height: 200px;
     background-color: #000;
 }
 
