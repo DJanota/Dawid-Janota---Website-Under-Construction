@@ -9,7 +9,7 @@
 
 .webundcon {
     padding: 35px;
-    height: 753px;
+    height: 672px;
     min-height: 200px;
     background-color: #000;
 }
@@ -106,7 +106,7 @@ h5 {
 /*Countdown Timer*/
 /*Contact*/
 .contact {
-    margin-top: 180px;
+    margin-top: 150px;
     background-color: #000;
     color: #fff;
 }
@@ -159,9 +159,7 @@ h5 {
 /*Social Buttons*/
 /*Contact*/
 /*Website Under Construction*/
-
 /*Footer*/
-/*
 footer {
     padding: 20px 0 15px 0;
     background-color: #000000;
@@ -182,9 +180,8 @@ footer p a:hover {
     text-decoration: none;
     cursor: pointer;
 }
-*/
-/*Footer*/
 
+/*Footer*/
 /*Cookies*/
 #cookies-message {
     padding: 28px 10px;
